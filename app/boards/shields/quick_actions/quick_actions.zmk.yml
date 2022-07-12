@@ -1,0 +1,9 @@
+file_format: "1"
+id: quick_actions
+name: Quick Actions
+type: shield
+url: https://github.com/GreenAirplane/ergogen
+requires: [pro_micro]
+features:
+  - keys
+  - encoder

@@ -1,0 +1,6 @@
+if SHIELD_QUICK_ACTIONS
+
+config ZMK_KEYBOARD_NAME
+	default "Quick Actions"
+
+endif # SHIELD_QUICK_ACTIONS

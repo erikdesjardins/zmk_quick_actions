@@ -1,3 +1,19 @@
+# Quick Actions
+This fork includes shield and keymap for Quick Actions keyboard.
+
+## How to use?
+### 1. Build on local
+`west build --pristine -b nice_nano -- -DSHIELD=quick_actions`
+
+Please note that you will need west and so on. I would highly recommend using the `Dev Container` included in this repo.
+
+### 2. Build using ZMK build process
+
+Follow `ZMK` docs: https://zmk.dev/docs/user-setup
+
+---
+&nbsp;
+
 # Zephyr™ Mechanical Keyboard (ZMK) Firmware
 
 [![Discord](https://img.shields.io/discord/719497620560543766)](https://zmk.dev/community/discord/invite)
