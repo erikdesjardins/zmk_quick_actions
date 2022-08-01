@@ -5,7 +5,7 @@ This fork includes shield and keymap for Quick Actions keyboard.
 ### 1. Build on local
 ```
 cd app
-west build --pristine -b nice_nano -- -DSHIELD=quick_actions
+west build --pristine -b nice_nano_v2 -- -DSHIELD=quick_actions
 ```
 
 Please note that you will need west and so on. I would highly recommend using the `Dev Container` included in this repo.
