@@ -2,17 +2,10 @@
 This fork includes shield and keymap for Quick Actions keyboard.
 
 ## How to use?
-### 1. Build on local
-```
-cd app
-west build --pristine -b nice_nano_v2 -- -DSHIELD=quick_actions
-```
 
-Please note that you will need west and so on. I would highly recommend using the `Dev Container` included in this repo.
+Download firmware from build workflow: https://github.com/erikdesjardins/zmk_quick_actions/actions/workflows/build.yml
 
-### 2. Build using ZMK build process
-
-Follow `ZMK` docs: https://zmk.dev/docs/user-setup
+See also `ZMK` docs: https://zmk.dev/docs/user-setup
 
 ---
 &nbsp;
