@@ -15,14 +15,13 @@
         default_layer {
 
             bindings = <
-    &trans  &trans  &kp N1  &kp N2  &kp N3
-    &kp F13 &kp F16 &kp F19 &kp F22 &kp Q
-    &kp F14 &kp F17 &kp F20 &kp F23 &kp A
-    &kp F15 &kp F18 &kp F21 &kp F24 &kp Z
+    &trans  &trans  &kp C_MUTE &kp C_MUTE &kp C_MUTE
+    &kp F13 &kp F14 &kp F15 &kp F16 &kp PAUSE_BREAK
+    &kp F17 &kp F18 &kp F19 &kp F20 &kp UP
+    &kp F21 &kp F22 &kp F23 &kp F24 &kp DOWN
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN &inc_dec_kp UP DOWN>;
         };
     };
 };
-
